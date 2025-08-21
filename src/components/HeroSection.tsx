@@ -4,8 +4,9 @@ import heroBackground from '@/assets/hero-bg.jpg';
 
 const HeroSection = () => {
   const handleDownloadResume = () => {
-    // This would typically link to a PDF resume file
-    console.log('Download resume clicked');
+    // Direct download link from Google Drive
+    const resumeUrl = 'https://drive.google.com/uc?export=download&id=15s9CITc2zyMa86B0o6jazZR9H5sos87Q';
+    window.open(resumeUrl, '_blank');
   };
 
   return (
