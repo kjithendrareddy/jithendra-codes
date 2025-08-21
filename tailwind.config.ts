@@ -18,7 +18,22 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				inter: ['Inter', 'sans-serif'],
+			},
 			colors: {
+				// Portfolio specific colors
+				navy: 'hsl(var(--navy))',
+				'navy-light': 'hsl(var(--navy-light))',
+				teal: 'hsl(var(--teal))',
+				'teal-light': 'hsl(var(--teal-light))',
+				'gray-50': 'hsl(var(--gray-50))',
+				'gray-100': 'hsl(var(--gray-100))',
+				'gray-200': 'hsl(var(--gray-200))',
+				'gray-600': 'hsl(var(--gray-600))',
+				'gray-900': 'hsl(var(--gray-900))',
+				
+				// Design system tokens
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
